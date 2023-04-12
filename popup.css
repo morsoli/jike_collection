@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto; /* 水平居中 */
+    margin-top: 20px; /* 上方留白 */
+    margin-bottom: 0; /* 下方留白 */
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap; /* 防止按钮内容换行 */
+    overflow: hidden; /* 隐藏溢出的内容 */
+    text-overflow: ellipsis; /* 当内容溢出时显示省略号 */
+  }
+  
+  
+  .collection-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .collection-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+  }

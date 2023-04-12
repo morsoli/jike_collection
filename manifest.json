@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "即刻剪存",
+    "version": "0.1.0",
+    "description": "一键导出自己的即刻收藏列表",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "host_permissions": [
+        "*://*.okjike.com/", "*://okjike.com/"
+    ],
+    "permissions": [
+        "cookies",
+        "activeTab"
+    ]
+  }
+  
